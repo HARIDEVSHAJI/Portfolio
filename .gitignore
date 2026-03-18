@@ -1,0 +1,42 @@
+# Node & Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+next-env.d.ts
+
+# Python & FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.venv/
+alembic.ini.bak
+portfolio.db
+*.sqlite3
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+!backend/.env.example
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# User Uploads
+uploads/
+backend/uploads/

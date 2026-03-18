@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\codes\Portfolio\backend\test_db.py", line 7, in <module>
+    psycopg2.connect('dbname=portfolio_db user=postgres password=portfolio123 host=127.0.0.1 port=5432')
+  File "C:\codes\Portfolio\backend\venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "127.0.0.1", port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
